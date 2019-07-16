@@ -20,4 +20,4 @@ COPY . .
 # get dependencies
 RUN npm install
 # main process for the container when it runs
-ENTRYPOINT ["/usr/bin/node", "Index.js", "-d"]
+ENTRYPOINT ["/usr/bin/node", "Index.js"]
