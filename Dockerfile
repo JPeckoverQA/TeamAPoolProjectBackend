@@ -1,9 +1,9 @@
 # base image
 FROM ubuntu:latest
-USER root
-RUN apt update
 # set environment variable for mongo
 ENV MONGO_HOST=mongo
+USER root
+RUN apt update
 # install wget & curl
 RUN apt install -y curl wget
 # nodejs apt repo and installation
