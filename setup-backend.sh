@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker network create pool_app_network
+//docker network create pool_app_network
 
 //docker run -d --name mongo --network pool_app_network mongo:latest
 
