@@ -1,7 +1,7 @@
 # base image
 FROM ubuntu:latest
 # set environment variable for mongo
-ENV MONGO_HOST=mongo
+ENV MONGO_HOST = mongo
 USER root
 RUN apt update
 # install wget & curl
