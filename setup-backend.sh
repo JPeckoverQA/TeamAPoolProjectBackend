@@ -7,7 +7,7 @@
 #docker build -t docker.io/jpeckover/pool_backend:latest
 docker pull jpeckover/pool_backend:latest
 
-docker run -d --name backend --network pool_app_network -p 8080:8080 /jpeckover/pool_backend:latest
+docker run -d --name backend --network pool_app_network -p 8080:8080 jpeckover/pool_backend:latest
 
 #docker ps
 #docker logs -f backend
